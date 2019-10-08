@@ -7,8 +7,8 @@ phases:
   post_build:
     commands:
       - mvn package
-      - mv target/springbootaws.war springbootaws.war
+      - mv target/springbootaws-0.0.1-SNAPSHOT.war springbootaws-0.0.1-SNAPSHOT.war
 artifacts:
   files:
-    - springbootaws.war
+    - springbootaws-0.0.1-SNAPSHOT.war
      .ebextensions/**/*
